@@ -8,5 +8,8 @@ def join_nested_strings(src)
     while element_index < src[row_index].length do
       if src[row_index][element_index] == typeof string
         results_array << src[row_index][element_index]
-        element_index += 1
+      end
+    element_index += 1
+  end
+  
 end
